@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caluculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1><br><br>
+        <div class="container">
+            <input type="text" id="screen" style="font-size: 20px;font-weight: 700;margin-top: 55px;width: 325px;background-color: white;color: black;"><br><br>
+            <input type="button" value="1" onclick="btnClick(value)">
+            <input type="button" value="2" onclick="btnClick(value)">
+            <input type="button" value="3" onclick="btnClick(value)">
+            <input type="button" value="/" onclick="btnClick(value)"><br><br>
+
+
+            <input type="button" value="4" onclick="btnClick(value)">
+            <input type="button" value="5" onclick="btnClick(value)">
+            <input type="button" value="6" onclick="btnClick(value)">
+            <input type="button" value="-" onclick="btnClick(value)"><br><br>
+
+
+            <input type="button" value="7" onclick="btnClick(value)">
+            <input type="button" value="8" onclick="btnClick(value)">
+            <input type="button" value="9" onclick="btnClick(value)">
+            <input type="button" value="+" onclick="btnClick(value)"><br><br>
+
+
+            <input type="button" value="." onclick="btnClick(value)">
+            <input type="button" value="0" onclick="btnClick(value)">
+            <input type="button" value="=" onclick="findresult()">
+            <input type="button" value="*" onclick="btnClick(value)"><br><br>
+            <input type="button" value="del" onclick="del()">
+            <input type="button" value="C" onclick="clearScreen()">
+            
+        </div>
+        <script src="script.js"></script>
+      
+    
+
+
+
+
+</body>
+</html>
